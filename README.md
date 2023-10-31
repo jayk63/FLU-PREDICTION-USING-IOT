@@ -2,6 +2,8 @@
 
 ![image](https://github.com/jayk63/FLU-PREDICTION-USING-IOT/assets/149288629/81319570-b4d6-46bd-8f59-f59a56a8f82e)
 
+![image](https://github.com/jayk63/FLU-PREDICTION-USING-IOT/assets/149288629/d0a4bafb-6a61-4d43-bd80-59324771fa8b)
+
 This is a Streamlit web application for monitoring FLU vital readings and predicting patient status based on the provided vital readings. The application allows you to input simulated vital readings for SpO2 (oxygen saturation), heart rate, and body temperature. It can also connect to an Arduino device to fetch real-time sensor data from it.
 
 ## Table of Contents

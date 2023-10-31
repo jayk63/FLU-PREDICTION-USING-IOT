@@ -10,7 +10,6 @@ This is a Streamlit web application for monitoring FLU vital readings and predic
 - [How to Run the Streamlit Application](#how-to-run-the-streamlit-application)
 - [Functionality](#functionality)
 - [Important Note](#important-note)
-- [License](#license)
 
 ## Files and Directory Structure
 
@@ -31,20 +30,17 @@ Here's an overview of the files and directories in this project:
 To run the Streamlit application, follow these steps:
 
 1. Make sure you have Python installed on your system.
+   
+```python -v```
 
-2. Create a virtual environment and activate it (recommended).
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 Install the required Python packages by running:
-bash
-Copy code
-pip install -r requirements.txt
+
+```pip install -r requirements.txt```
+
 Run the Streamlit application by executing main.py:
-bash
-Copy code
-streamlit run main.py
+
+```streamlit run main.py```
+
 The Streamlit web application should open in your default web browser. You can interact with the application to input simulated vital readings or connect to an Arduino device for real-time sensor data.
 Functionality
 Debug Mode: You can enable the debug mode to input simulated vital readings for SpO2, heart rate, and temperature.

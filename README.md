@@ -4,7 +4,7 @@
 
 ![image](https://github.com/jayk63/FLU-PREDICTION-USING-IOT/assets/149288629/d0a4bafb-6a61-4d43-bd80-59324771fa8b)
 
-This is a Streamlit web application for monitoring FLU vital readings and predicting patient status based on the provided vital readings. The application allows you to input simulated vital readings for SpO2 (oxygen saturation), heart rate, and body temperature. It can also connect to an Arduino device to fetch real-time sensor data from it.
+This is a Streamlit web application for monitoring FLU vital readings and predicting patient status based on the provided vital readings. The application allows you to input simulated vital readings for SpO2 (oxygen saturation), heart rate, and body temperature. It can also connect to an Esp8266 Moduleto fetch real-time sensor data from it.
 
 ## Table of Contents
 
@@ -43,7 +43,7 @@ Run the Streamlit application by executing main.py:
 
 ```streamlit run main.py```
 
-The Streamlit web application should open in your default web browser. You can interact with the application to input simulated vital readings or connect to an Arduino device for real-time sensor data.
+The Streamlit web application should open in your default web browser. You can interact with the application to input simulated vital readings or connect to an Esp8266 Modulefor real-time sensor data.
 Functionality
 Debug Mode: You can enable the debug mode to input simulated vital readings for SpO2, heart rate, and temperature.
 
